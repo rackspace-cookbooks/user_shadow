@@ -31,7 +31,7 @@ end
 The user to modify is ```testuser```. See a full list of parameters and explanation below.
 
 
-## Resoruce overview
+## Resource overview
 
 The ```user_shadow``` LWRP modifies the shadow attributes of a user. There is only one action defined, ```:set``` which writes the new values on the corresponding attributes.
 
