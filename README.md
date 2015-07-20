@@ -2,13 +2,17 @@
 
 # user_shadow
 
-A cookbook to provide a LWRP for modifying user shadow attributes.
+A library cookbook to provide a resource for modifying user shadow attributes.
 
 ## Supported Platforms
 
 * Centos 6.6
 * Ubuntu 12.04
 * Ubuntu 14.04
+
+## Requirements
+
+The library depends  on the ```chage``` binary being installed on the targe system. The ```chage``` binary is part of the ```shadow-utils``` package on RHEL/CentOS and part of the ```passwd``` package on Ubuntu (these packages are usually installed by default).
 
 ## Usage
 
@@ -30,10 +34,9 @@ end
 ```
 The user to modify is ```testuser```. See a full list of parameters and explanation below.
 
-
 ## Resource overview
 
-The ```user_shadow``` LWRP modifies the shadow attributes of a user. There is only one action defined, ```:set``` which writes the new values on the corresponding attributes.
+The ```user_shadow``` resource modifies the shadow attributes of a user. There is only one action defined, ```:set``` which writes the new values on the corresponding attributes.
 
 ### Parameters
 
