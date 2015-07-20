@@ -21,6 +21,7 @@ Place a dependency on the user_shadow cookbook in your cookbook's metadata.rb
 depends 'user_shadow'
 ```
 Then, in your recipe
+
 ```
 # myrecipe.rb
 user_shadow 'testuser'
