@@ -1,6 +1,10 @@
 user_shadow CHANGELOG
 ==================
 
+0.1.2
+-----
+- Updated README
+
 0.1.1
 -----
 - Corrected the cookbook description
