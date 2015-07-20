@@ -53,6 +53,10 @@ The ```user_shadow``` resource modifies the shadow attributes of a user. There i
 
 * ```:set``` - Modifies the corresponding attributes. Default action. If there are no parameters set the resource doesn't do anything.
 
+### Out of scope
+
+This library cookbook doesn't deal (no or in the future) with managing the encrypted password for the user in /etc/shadow. This can be managed through the built-in Chef ```user``` resource.
+
 ## Contributing
 
 1. Fork the repository on Github
