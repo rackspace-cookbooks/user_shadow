@@ -51,8 +51,8 @@ class Chef
       # Used to validate sp_lstchg and sp_expire which should be in YYYY-MM-DD
       def self.validate_date(date)
         !Date.strptime(date, '%Y-%m-%d').nil?
-        rescue
-          false
+      rescue
+        false
       end
     end
   end
