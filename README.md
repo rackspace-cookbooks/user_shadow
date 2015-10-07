@@ -6,7 +6,7 @@ A library cookbook to provide a resource for modifying user shadow attributes.
 
 ## Supported Platforms
 
-* Centos 6.6
+* Centos 6.7
 * Ubuntu 12.04
 * Ubuntu 14.04
 
@@ -41,7 +41,7 @@ The ```user_shadow``` resource modifies the shadow attributes of a user. There i
 
 ### Parameters
 
-* ```user``` - String that denotes the user to be modified. Defaults to the name of the resource. 
+* ```user``` - String that denotes the user to be modified. Defaults to the name of the resource.
 * ```sp_lstchg``` - String that denotes the date when the user's password was last changed. Must be in YYYY-MM-DD format. No default.
 * ```sp_expire``` - String that denotes the date when the account expires. Must be in YYYY-MM-DD format. No default.
 * ```sp_min``` - Number that denotes the minimum number of days between password changes. No default.

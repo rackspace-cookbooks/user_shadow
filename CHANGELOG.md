@@ -1,6 +1,10 @@
 user_shadow CHANGELOG
 ==================
 
+0.1.4
+-----
+- CentOS support on 6.7 instead of 6.6
+
 0.1.3
 -----
 - Fix for Rubocop tests
