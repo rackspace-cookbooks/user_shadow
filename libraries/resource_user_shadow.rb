@@ -13,7 +13,7 @@ class Chef
         @allowed_actions = :set
         @action = :set
         @chage = '/usr/bin/chage'
-        @sp_lstchg, @sp_expire, @sp_min, @sp_max, @sp_warn, @sp_inact  = nil
+        @sp_lstchg, @sp_expire, @sp_min, @sp_max, @sp_warn, @sp_inact = nil
       end
 
       def user(arg = nil)
