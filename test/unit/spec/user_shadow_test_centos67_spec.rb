@@ -1,13 +1,13 @@
 require_relative 'spec_helper'
-require_relative 'centos66_options'
+require_relative 'centos67_options'
 
-describe 'user_shadow_test::default on Centos 6.6' do
+describe 'user_shadow_test::default on Centos 6.7' do
   before do
     stub_resources
   end
 
   cached(:chef_run) do
-    ChefSpec::SoloRunner.new(CENTOS66_SERVICE_OPTS) do |node|
+    ChefSpec::SoloRunner.new(CENTOS67_SERVICE_OPTS) do |node|
       node_resources(node)
     end.converge('user_shadow_test::default')
   end
