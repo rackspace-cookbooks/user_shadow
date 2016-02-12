@@ -1,5 +1,11 @@
 user_shadow CHANGELOG
 ==================
+0.1.5
+-----
+- Fixed Rubocop errors
+- Fixed circleci ssh key issue
+- Added Gemfile.lock to repo
+- Changed CentOS 6.6 to 6.7 in unit tests
 
 0.1.4
 -----
